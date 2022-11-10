@@ -1,17 +1,17 @@
 import React from "react";
 import { Box } from "@mui/material";
 import Header from "../sections/Header";
-import BarChart from "../components/BarChart";
+import PieChart from "../components/PieChart";
 
-const Bar = () => {
+const Pie = () => {
   return (
     <Box m="20px">
-      <Header title="Bar Chart" subtitle="Simple Bar Chart" />
+      <Header title="Pie Chart" subtitle="Simple Pie Chart" />
       <Box height="70vh">
-        <BarChart />
+        <PieChart />
       </Box>
     </Box>
   );
 };
 
-export default Bar;
+export default Pie;

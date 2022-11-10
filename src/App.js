@@ -11,6 +11,7 @@ import Form from "./pages/form";
 import Calendar from "./pages/calendar";
 import FAQ from "./pages/faqs";
 import Bar from "./pages/bar";
+import Pie from "./pages/pie";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -32,6 +33,7 @@ function App() {
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/bar" element={<Bar />} />
+              <Route path="/pie" element={<Pie />} />
             </Routes>
           </main>
         </div>
